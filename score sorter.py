@@ -1,0 +1,50 @@
+print ("How many students' test scores do you want to arrange?")
+a = input()
+if a == "2":
+    print ("Enter first student's name")
+    name1 = input()
+    print ("Enter his/her score")
+    score1 = input()
+    print ("Enter second student's name")
+    name2 = input()
+    print ("Enter his/her score")
+    score2 = input()
+    score = {score1:name1,score2:name2}
+    for s in sorted(score):
+        print (s,":",score[s])
+if a == "3":
+    print ("Enter first student's name")
+    name1 = input()
+    print ("Enter his/her score")
+    score1 = input()
+    print ("Enter second student's name")
+    name2 = input()
+    print ("Enter his/her score")
+    score2 = input()
+    print ("Enter third student's name")
+    name3 = input()
+    print ("Enter his/her score")
+    score3 = input()
+    score = {score1:name1,score2:name2,score3:name3}
+    for s in sorted(score):
+        print (s,":",score[s])       
+if a == "4":
+    print ("Enter first student's name")
+    name1 = input()
+    print ("Enter his/her score")
+    score1 = input()
+    print ("Enter second student's name")
+    name2 = input()
+    print ("Enter his/her score")
+    score2 = input()
+    print ("Enter third student's name")
+    name3 = input()
+    print ("Enter his/her score")
+    score3 = input()
+    print ("Enter fourth student's name")
+    name4 = input()
+    print ("Enter his/her score")
+    score4 = input()
+    score = {score1:name1,score2:name2,score3:name3,score4:name4}
+    for s in sorted(score):
+        print (s,":",score[s])       
